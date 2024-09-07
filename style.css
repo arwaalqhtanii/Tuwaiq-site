@@ -83,33 +83,34 @@ background-color: #7863ee;
 
 
 .bg-custom {
-    background-color: #a0d2eb; /* Light teal background, adjust as needed */
+    background-color: #a0d2eb; 
 }
 .btn-custom {
-    background-color: #6351ce; /* Custom purple background color */
-    color: white; /* White text color */
-    border: none; /* No border */
+    background-color: #6351ce; 
+    color: white;
+    border: none;
 }
 .btn-custom:hover {
-    background-color: #4530b2; /* Darker purple on hover */
+    background-color: #4530b2;
 }
 .text-custom {
-    color: #ffffff; /* White text color */
-    background-color: rgba(0, 0, 0, 0.1); /* Slightly dark background on text */
-    padding: 5px 15px; /* Padding around text */
-    border-radius: 5px; /* Rounded corners */
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 15px; 
+    border-radius: 5px; 
 }
 
 
 .footer {
-    background-color: #4c3398; /* Dark purple background */
-    color: white; /* White text color */
-    padding: 20px 0; /* Padding for the footer */
+    background-color: #4c3398; 
+    color: white; 
+    padding: 20px 0; 
 }
 .footer a {
-    color: white; /* Ensures all links are white */
-    margin-right: 15px; /* Space between icons */
+    color: white; 
+    margin-right: 15px; 
 }
 .footer a:hover {
-    color: #ada8b6; /* Light purple for hover state */
+    color: #ada8b6;
 }
+
