@@ -1,0 +1,115 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.video-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  
+}
+.video-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+ 
+
+}
+h1 {
+    font-size: 10vw;
+    margin-bottom: 5vh;
+  
+}
+.btn-green {
+    background-color: #40d7ca; 
+    color: white; 
+    border: none; 
+    padding: 10px 50px; 
+    text-align: center; 
+    font-size: 20px;
+    font-weight: 500;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 10px; 
+}
+.btn-green:hover {
+    background-color: #30a98f;
+}
+.text-purple {
+    color: #4c2c87; 
+    font-weight: bold;
+}
+
+
+.text-blod{
+    font-weight: bold;
+    font-size: small;
+}
+
+.btn-purple{
+    background-color: #4530b2;
+    color: white; 
+    border: none; 
+    padding: 6px 50px; 
+    text-align: center; 
+    font-size: 20px;
+    font-weight: 500;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 10px;
+}
+.btn-purple:hover{
+background-color: #7863ee;
+}
+
+
+.bg-custom {
+    background-color: #a0d2eb; /* Light teal background, adjust as needed */
+}
+.btn-custom {
+    background-color: #6351ce; /* Custom purple background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+}
+.btn-custom:hover {
+    background-color: #4530b2; /* Darker purple on hover */
+}
+.text-custom {
+    color: #ffffff; /* White text color */
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly dark background on text */
+    padding: 5px 15px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+.footer {
+    background-color: #4c3398; /* Dark purple background */
+    color: white; /* White text color */
+    padding: 20px 0; /* Padding for the footer */
+}
+.footer a {
+    color: white; /* Ensures all links are white */
+    margin-right: 15px; /* Space between icons */
+}
+.footer a:hover {
+    color: #ada8b6; /* Light purple for hover state */
+}
