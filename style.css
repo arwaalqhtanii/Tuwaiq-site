@@ -1,9 +1,11 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
 }
+
 .video-container {
     position: relative;
     width: 100vw;
@@ -16,25 +18,28 @@ body, html {
 h1 {
     font-size: 10vw;
     margin-bottom: 5vh;
-  
+
 }
+
 .btn-green {
-    background-color: #40d7ca; 
-    color: white; 
-    border: none; 
-    padding: 10px 50px; 
-    text-align: center; 
+    background-color: #40d7ca;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     margin: 4px 2px;
-    cursor: pointer; 
-    border-radius: 10px; 
+    cursor: pointer;
+    border-radius: 10px;
 }
+
 .btn-green:hover {
     background-color: #30a98f;
 }
+
 .text-purple {
-    color: #4c2c87; 
+    color: #4c2c87;
     font-weight: bold;
 }
 
@@ -46,9 +51,10 @@ video {
     height: 100vh;
     object-fit: cover;
     transform: translate(-50%, -50%);
-    
-  
+
+
 }
+
 .video-content {
     position: absolute;
     top: 0;
@@ -60,63 +66,79 @@ video {
     align-items: center;
     text-align: center;
     color: white;
- 
+
 
 }
 
-.text-blod{
+.text-blod {
     font-weight: bold;
     font-size: small;
 }
 
-.btn-purple{
+.btn-purple {
     background-color: #4530b2;
-    color: white; 
-    border: none; 
-    padding: 6px 50px; 
-    text-align: center; 
+    color: white;
+    border: none;
+    padding: 6px 50px;
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     margin: 4px 2px;
-    cursor: pointer; 
+    cursor: pointer;
     border-radius: 10px;
 }
-.btn-purple:hover{
-background-color: #7863ee;
+
+.btn-purple:hover {
+    background-color: #7863ee;
 }
 
 
 .bg-custom {
-    background-color: #a0d2eb; 
+    background-color: #a0d2eb;
 }
+
 .btn-custom {
-    background-color: #6351ce; 
+    background-color: #6351ce;
     color: white;
     border: none;
 }
+
 .btn-custom:hover {
     background-color: #4530b2;
 }
+
 .text-custom {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 5px 15px; 
-    border-radius: 5px; 
+    padding: 5px 15px;
+    border-radius: 5px;
 }
 
 
 .footer {
-    background-color: #4c3398; 
-    color: white; 
-    padding: 20px 0; 
+    background-color: #4c3398;
+    color: white;
+    padding: 20px 0;
 }
+
 .footer a {
-    color: white; 
-    margin-right: 15px; 
+    color: white;
+    margin-right: 15px;
 }
+
 .footer a:hover {
     color: #ada8b6;
 }
-.ff{
+
+.ff {
     background-color: #4530b2;
+}
+
+.footer-policy {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
 }
